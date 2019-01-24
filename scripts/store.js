@@ -49,7 +49,7 @@ const store = (function () {
   }
 
   function toggleCheckedFilter(){
-    this.hideCheckedItems = !this.hideCheckedItems
+    this.hideCheckedItems = !this.hideCheckedItems; 
   }
 
   function setSearchTerm(search){
